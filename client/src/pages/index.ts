@@ -1,5 +1,6 @@
-import { Home } from './home';
+
+import { Intro } from './intro';
 
 export {
-    Home
+    Intro,
 };
