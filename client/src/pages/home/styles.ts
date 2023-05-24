@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
     
-    background-image: url(${(props) => props.theme.colors.background});
+    background-image: url(${(props) => props.theme.backgroundImage.background});
     background-size: cover;
 
     .home-section {
