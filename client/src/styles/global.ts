@@ -20,7 +20,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${(props) => props.theme.colors.background};
+    background-image: url(${(props) => props.theme.colors.background});
+    background-repeat: no-repeat;
+    background-size: cover;
     color: ${(props) => props.theme.colors.text};
     font: 400 16px Nunito, sans-serif;
     -webkit-font-smoothing: antialiased;
