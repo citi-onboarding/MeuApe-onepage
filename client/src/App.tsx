@@ -9,8 +9,8 @@ import { Footer} from "./pages";
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Footer/>
       <GlobalStyle/>
+      <Footer/>
     </ThemeProvider>
   );
 }

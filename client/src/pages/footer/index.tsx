@@ -26,23 +26,28 @@ export const Footer: React.FC = () => {
           vendas@meuapedomeujeito.com.br
         </Footerp>
       </FooterDiv>
-      <Footerul>
-        <Footerli>
-          <Footera href="https://www.instagram.com" target="_blank">
-            <img src={Instagram} alt="" />
-          </Footera>
-        </Footerli>
-        <Footerli>
-          <Footera href="https://www.facebook.com" target="_blank">
-            <img src={Facebook} alt="" />
-          </Footera>
-        </Footerli>
-        <Footerli>
-          <Footera href="https://www.linkedin.com" target="_blank">
-            <img src={Linkedin} alt="" />
-          </Footera>
+      <FooterDiv>
+        <Footerh1>
+          Redes
+        </Footerh1>
+        <Footerul>
+          <Footerli>
+            <Footera href="https://www.instagram.com" target="_blank">
+              <img src={Instagram} alt="" />
+            </Footera>
           </Footerli>
-        </Footerul>
+          <Footerli>
+            <Footera href="https://www.facebook.com" target="_blank">
+              <img src={Facebook} alt="" />
+            </Footera>
+          </Footerli>
+          <Footerli>
+            <Footera href="https://www.linkedin.com" target="_blank">
+              <img src={Linkedin} alt="" />
+            </Footera>
+            </Footerli>
+          </Footerul>
+        </FooterDiv>
     </FooterContainer>
   );
 }
