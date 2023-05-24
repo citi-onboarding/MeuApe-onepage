@@ -12,10 +12,10 @@ import { Navbar } from './pages';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Intro/>
       <GlobalStyle/>
       <Navbar />
       <Home />
+      <Intro/>
       <GlobalStyle />
     </ThemeProvider>
   );
