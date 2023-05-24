@@ -1,7 +1,12 @@
-import LogoCITi from './logo.png';
-import LogoMeuApe from './logo-meuape.png';
+import LogoMeuApe from './LogoMeuApe.svg';
+import Instagram from './Instagram.svg';
+import Facebook from './Facebook.svg';
+import Linkedin from './Linkedin.svg';
+
 
 export {
-    LogoCITi, 
     LogoMeuApe,
+    Instagram,
+    Facebook,
+    Linkedin,
 };
