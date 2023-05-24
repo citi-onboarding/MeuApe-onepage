@@ -12,10 +12,11 @@ export const IntroContainer = styled.div`
 `;
 
 export const Introimg1 = styled.img`
-  width: 1000px;
-  height: 1000px;
+  width: 1050px;
+  height: 1050px;
   margin-left: auto;
   margin-right: 0px;
+  margin-bottom: 0px;
 `;
 
 export const Introa = styled.a`
@@ -32,7 +33,7 @@ export const Introh1 = styled.h1`
   font-weight: 600; 
   font-size: 48px;
   color: black;
-  margin-top: 20px;
+  margin-top: 0px;
   text-align: center;
 `;
 
@@ -41,16 +42,17 @@ export const Introp3 = styled.p`
   font-size: 32px;
   font-weight: 400; 
   color: black;
-  opacity: 40%;
-  margin-top: 20px;
+  opacity: 60%;
+  margin-top: 0;
   text-align: center;
 `;
 
 export const Introp1 = styled.p`
 
 font-size: 24px;
+font-weight: 400;
 color: #1A0289;
-margin-top: 24px;
+margin-top: 0;
 line-height: 32px;
 text-align: center;
 
@@ -58,9 +60,10 @@ text-align: center;
 export const Introp2 = styled.p`
 
 font-size: 24px;
+font-weight: 600;
 color: #1A0289;
 opacity: 40%;
-margin-top: 150px;
+margin-top: 230px;
 line-height: 32px;
 text-align: center;
 `;
