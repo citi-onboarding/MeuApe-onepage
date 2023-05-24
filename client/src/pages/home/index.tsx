@@ -1,24 +1,19 @@
 import React from "react";
 import { HomeContainer } from './styles';
-import { LogoMeuApe } from '../../assets';
 
 
 export const Home: React.FC = () => {
     return (
         <HomeContainer>
-            <img src={LogoMeuApe} alt="" />
-            <h1>Site em construção...</h1>
-            <p>
-                Made with
-                {' '}
-                <strong>&lt; &#x0002F; &gt;</strong>
-                {' '}
-                and
-                {' '}
-                <strong>&hearts;</strong>
-                {' '}
-                by CITi
-            </p>
+            <section className="home-section">
+                <div className="overlay">
+                    <div className="content">
+                        <h2>Personalize sua <br /> casa nova sem dor <br />de cabeça</h2>
+                        <button>Entre em contato</button>
+                    </div>
+                </div>
+            </section>
+            <span className="highlight-line" />
         </HomeContainer>
     );
 }
