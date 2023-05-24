@@ -8,27 +8,28 @@ export const FooterContainer = styled.footer`
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">*/
 
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  text-align: center;
 `;
 
 export const FooterDiv = styled.div`
-
-display: flex;
-position: relative;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px; 
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 export const Footerimg = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  margin-right: auto; 
   margin-left: auto;
-  margin-right: 0px;
 `;
 
 export const Footera = styled.a`
@@ -43,7 +44,7 @@ export const Footera = styled.a`
 export const Footerh1 = styled.h1`
   font-family: 'Nunito', sans-serif;
   font-weight: 600; 
-  font-size: 20px;
+  font-size: 48px;
   margin-top: 20px;
   text-align: center;
 `;
@@ -55,4 +56,14 @@ export const Footerp = styled.p`
   color: white;
   margin-top: 20px;
   text-align: center;
+`;
+
+export const Footerul = styled.ul`
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+`;
+
+export const Footerli = styled.li`
+  margin: 0px;
 `;
