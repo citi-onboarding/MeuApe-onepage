@@ -24,8 +24,12 @@ export const GlobalStyle = createGlobalStyle`
     background-repeat: no-repeat;
     background-size: cover;
     color: ${(props) => props.theme.colors.text};
+    font: 400 16px Nunito, sans-serif;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Nunito', Courier, monospace, sans-serif;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
   }
 
   button {
