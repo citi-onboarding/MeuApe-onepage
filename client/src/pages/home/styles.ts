@@ -1,39 +1,47 @@
-import styled from 'styled-components'; 
-
+import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
+    
+    width: 1251px;
+    margin: 0 auto;  
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  h1 {
-    font-size: 54px;
-    color: ${(props) => props.theme.colors.primary};
-    margin-top: 40px;
-    text-align: center;
-
-    @media (max-width: 720px) {
-      font-size: 28px;
+    .home-section {
+      position: relative;
+      height: 50vh;
+      margin-left: 36px;
+      margin-top: 160px;
     }
-  }
-  
-  p {
-
-    font-size: 20px;
-    margin-top: 24px;
-    line-height: 32px;
-
-    @media (max-width: 720px) {
-      font-size: 16px;
-      margin-top: 0;
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: left;
     }
-  }
+    
+    .content {
+      text-align: left;
+      color: #fff;
+      line-height: 85px;
+      letter-spacing: 1.5px;
+    }
+    
+    .content h2 {
+      font-size: 68px;
+    }
 
-  img {
-    width: 25%;
+    .highlight-line {
+      position: absolute;
+      left: 0;
+      width: 36.5%;
+      height: 4px;
+      background-color: #1A0289;
+      margin-top: -273px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
   }
 `;

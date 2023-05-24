@@ -1,7 +1,9 @@
-import LogoCITi from './logo.png';
-import LogoMeuApe from './logo-meuape.png';
+import LogoMeuApe from './logo.svg';
+import LinhaHome from './Line 11.svg'
+import BackgroundHome from './background.svg'
 
 export {
-    LogoCITi, 
     LogoMeuApe,
+    LinhaHome,
+    BackgroundHome
 };
