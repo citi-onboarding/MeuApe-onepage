@@ -1,6 +1,6 @@
 import React from "react";
 import { HomeContainer } from './styles';
-
+import { Button } from "../../components";
 
 export const Home: React.FC = () => {
     return (
@@ -9,7 +9,7 @@ export const Home: React.FC = () => {
                 <div className="overlay">
                     <div className="content">
                         <h2>Personalize sua <br /> casa nova sem dor <br />de cabeça</h2>
-                        <button>Entre em contato</button>
+                        <Button />
                     </div>
                 </div>
             </section>

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavbarContainer } from './styles';
-import { LogoMeuApe, BackgroundHome } from '../../assets';
+import { LogoMeuApe } from '../../assets';
 
 
 export const Navbar: React.FC = () => {
