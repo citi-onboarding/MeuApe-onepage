@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const IntroContainer = styled.div`
   background-color: #FFFFFF;
-
   display: flex;
   position: relative;
   justify-content: center;
