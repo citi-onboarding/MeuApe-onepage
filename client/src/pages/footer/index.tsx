@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
       <Footerimg src={LogoMeuApe} alt="" />
       <FooterDiv>
         <Footerh1>
-          Endereço
+          Endereço 
         </Footerh1>
         <Footerp>
           Rua Abelardo, 45 <br></br>
@@ -47,7 +47,7 @@ export const Footer: React.FC = () => {
             </Footera>
             </Footerli>
           </Footerul>
-        </FooterDiv>
+      </FooterDiv>
     </FooterContainer>
   );
 }
