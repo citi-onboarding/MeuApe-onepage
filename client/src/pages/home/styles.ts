@@ -2,20 +2,17 @@ import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
     
-    width: 1251px;
-    margin: 0 auto;  
+    background-image: url(${(props) => props.theme.colors.background});
+    background-size: cover;
 
     .home-section {
       position: relative;
-      height: 50vh;
-      margin-left: 36px;
-      margin-top: 160px;
+      height: 100vh;
+      margin-left: 146px;
     }
     
     .overlay {
       position: absolute;
-      top: 0;
-      left: 0;
       width: 100%;
       height: 100%;
       display: flex;
@@ -37,10 +34,10 @@ export const HomeContainer = styled.div`
     .highlight-line {
       position: absolute;
       left: 0;
-      width: 36.5%;
+      width: 37%;
       height: 4px;
       background-color: #1A0289;
-      margin-top: -273px;
+      margin-top: -460px;
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     }
   }
