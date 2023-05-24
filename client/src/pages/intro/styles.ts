@@ -1,8 +1,7 @@
-import styled from 'styled-components'; 
+import styled from 'styled-components';
 
 
 export const IntroContainer = styled.div`
-  background-color: #FFFFFF;
   display: flex;
   position: relative;
   justify-content: center;
@@ -16,6 +15,7 @@ export const Introimg1 = styled.img`
   margin-left: auto;
   margin-right: 0px;
   margin-bottom: 0px;
+  margin-top: -640px;
 `;
 
 export const Introa = styled.a`

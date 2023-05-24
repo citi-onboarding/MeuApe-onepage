@@ -7,15 +7,13 @@ import { GlobalStyle } from './styles/global';
 
 import { Intro } from "./pages";
 import { Home } from './pages';
-import { Navbar } from './pages';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <GlobalStyle/>
-      <Navbar />
+      <GlobalStyle />
       <Home />
-      <Intro/>
+      <Intro />
       <GlobalStyle />
     </ThemeProvider>
   );
