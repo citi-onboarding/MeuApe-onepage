@@ -1,39 +1,41 @@
 import styled from 'styled-components'; 
-import { createGlobalStyle } from 'styled-components';
 
-
-
-export const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family: 'Nunito', sans-serif;
-    src: url('./fonts/Nunito-Regular.ttf') format('truetype');
-    src: url('./fonts/Nunito-SemiBold.ttf') format('truetype');
-  }
-`;
 
 export const IntroContainer = styled.div`
   background-color: #FFFFFF;
+  /*<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">*/
 
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 `;
+
 export const Introimg1 = styled.img`
-  width: 500px;
-  height: 500px;
+  width: 1000px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: 0px;
 `;
 
-export const Introimg2 = styled.img`
-width: 103.67;
-height: 61.28;
+export const Introa = styled.a`
+  display: block;
+  width: 103.67px;
+  height: 61.28px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 `;
+
 export const Introh1 = styled.h1`
   font-family: 'Nunito', sans-serif;
   font-weight: 600; 
   font-size: 48px;
   color: black;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
 `;
 
@@ -43,7 +45,7 @@ export const Introp3 = styled.p`
   font-weight: 400; 
   color: black;
   opacity: 40%;
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: center;
 `;
 
@@ -53,12 +55,15 @@ font-size: 24px;
 color: #1A0289;
 margin-top: 24px;
 line-height: 32px;
+text-align: center;
+
 `;
 export const Introp2 = styled.p`
 
 font-size: 24px;
 color: #1A0289;
 opacity: 40%;
-margin-top: 24px;
+margin-top: 150px;
 line-height: 32px;
+text-align: center;
 `;
