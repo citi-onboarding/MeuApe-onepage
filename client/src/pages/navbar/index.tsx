@@ -14,6 +14,7 @@ export const Navbar: React.FC = () => {
                 </div>
                 <ul>
                     <li><a href="#">Home</a></li>
+                    <li><a href="#">Quem somos</a></li>
                     <li><a href="#">Benefícios</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
