@@ -1,24 +1,30 @@
 import React from "react";
-import { NavbarContainer } from './styles';
+import { NavbarContainer, Logo, SecondContainer, ListItem, List } from './styles';
 import { LogoMeuApe } from '../../assets';
-
+import { useState } from "react";
+import { HamburguerMenu } from "../../components/menuHamburguer";
 
 export const Navbar: React.FC = () => {
+    const [active, setMode] = useState(false)
+    const ToggleMode = () => {
+        setMode(!active)
+    }
     return (
         <NavbarContainer>
-            <nav>
-                <div id="logo">
+            <SecondContainer>
+                <Logo>
                     <a href="#">
                         <img src={LogoMeuApe} alt="Logo principal" />
                     </a>
-                </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Quem somos</a></li>
-                    <li><a href="#">Benefícios</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
+                </Logo>
+                <List>
+                    <ListItem><a href="#">Home</a></ListItem>
+                    <ListItem><a href="#">Quem somos</a></ListItem>
+                    <ListItem><a href="#">Benefícios</a></ListItem>
+                    <ListItem><a href="#">Contato</a></ListItem>
+                </List>
+                <HamburguerMenu />
+            </SecondContainer>
         </NavbarContainer>
     );
 }
