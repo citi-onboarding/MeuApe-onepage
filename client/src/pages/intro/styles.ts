@@ -16,6 +16,18 @@ export const Introimg1 = styled.img`
   margin-right: 0px;
   margin-bottom: 0px;
   margin-top: -640px;
+
+  @media (max-width: 1260px) {
+    display: none;
+  }
+
+  @media (min-width: 1260px) and (max-width:1350px) {
+    margin-left: 400px;
+  }
+
+  @media (min-width: 1350px) {
+    margin-right: 30px;
+  }
 `;
 
 export const Introa = styled.a`

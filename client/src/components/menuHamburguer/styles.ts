@@ -2,10 +2,12 @@ import styled from 'styled-components';
 
 export const MenuWrapper = styled.div`
     position: absolute;
+    display: block;
     margin-left: 730px;
+    margin-top: -80px;
 
     /* Responsividade menu hamburguer */
-    @media (min-width: 900px){ 
+    @media (min-width: 780px){ 
         display: none;
     }
 
@@ -46,12 +48,13 @@ export const HamburguerButton = styled.div`
 
 export const MenuItems = styled.ul`
     position: absolute;
-    margin-top: 10px;
     padding: 20px;
-    background-color: #fff;
     list-style: none;
+    margin-left: -90px;
+    text-align: center;
+    background-color: red;
 `;
 
 export const MenuItem = styled.li`
-    margin-bottom: 10px; 
+    margin-bottom: 20px; 
 `;

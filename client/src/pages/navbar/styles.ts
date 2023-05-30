@@ -45,6 +45,13 @@ export const ListItem = styled.li`
     @media (min-width: 900px) and (max-width: 1020px) {
         margin-left: 35px;
     }
+
+    @media (min-width: 780px) and (max-width: 900px) {
+        margin-left: 30px;
+        a {
+            font-size: 19px;
+        }
+    }
 `;
 
 export const List = styled.ul`
@@ -69,7 +76,11 @@ export const List = styled.ul`
         margin-right: 460px;
     }
 
-    @media (max-width: 900px) {
+    @media (min-width: 780px) and (max-width: 900px) {
+        margin-right: 580px;
+    }
+
+    @media (max-width: 780px){ 
         display: none;
     }
 `;

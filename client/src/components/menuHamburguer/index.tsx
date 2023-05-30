@@ -17,9 +17,9 @@ export const HamburguerMenu = () => {
             </HamburguerButton>
             {isOpen && (
                 <MenuItems>
-                    <MenuItem><a>Home</a></MenuItem>
-                    <MenuItem><a>Benefícios</a></MenuItem>
-                    <MenuItem><a>Contato</a></MenuItem>
+                    <MenuItem><a href='#'>Home</a></MenuItem>
+                    <MenuItem><a href='#'>Benefícios</a></MenuItem>
+                    <MenuItem><a href='#'>Contato</a></MenuItem>
                 </MenuItems>
             )}
         </MenuWrapper>
