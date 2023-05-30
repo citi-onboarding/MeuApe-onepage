@@ -5,12 +5,12 @@ import { Citi, Crud } from '../global'
 export default class FooterController implements Crud {
 
     async create(request: Request, response: Response){
-        const {adress, phone, email, linkFacebook, linkLinkedin} = request.body;
+        const {adress, phone, email, email2, linkInstagram, linkFacebook, linkLinkedin} = request.body;
 
-        const isAnyUndefined = Citi.areValuesUndefined(adress, phone, email, linkFacebook, linkLinkedin);
+        const isAnyUndefined = Citi.areValuesUndefined(adress, phone, email, email2, linkInstagram, linkFacebook, linkLinkedin);
         if(isAnyUndefined) return response.status(400).send();
 
-        const newFooter = { adress, phone, email, linkFacebook, linkLinkedin };
+        const newFooter = {adress, phone, email, email2, linkInstagram, linkFacebook, linkLinkedin};
         const {httpStatus, message} = await Citi.insertIntoDatabase(Footer, newFooter);
 
         return response.status(httpStatus).send({ message });
@@ -33,12 +33,12 @@ export default class FooterController implements Crud {
 
     async update(request: Request, response: Response){
         const { id } = request.params;
-        const {adress, phone, email, linkFacebook, linkLinkedin } = request.body;
+        const {adress, phone, email, email2, linkInstagram, linkFacebook, linkLinkedin} = request.body;
 
-        const isAnyUndefined = Citi.areValuesUndefined(adress, phone, email, linkFacebook, linkLinkedin);
+        const isAnyUndefined = Citi.areValuesUndefined(adress, phone, email, email2, linkInstagram, linkFacebook, linkLinkedin);
         if(isAnyUndefined) return response.status(400).send();
 
-        const footerWithUpdatedValues = { adress, phone, email, linkFacebook, linkLinkedin };
+        const footerWithUpdatedValues = {adress, phone, email, email2, linkInstagram, linkFacebook, linkLinkedin};
 
         const { httpStatus, messageFromUpdate } = await Citi.updateValue(Footer, id, footerWithUpdatedValues);
         return response.status(httpStatus).send({ messageFromUpdate });
