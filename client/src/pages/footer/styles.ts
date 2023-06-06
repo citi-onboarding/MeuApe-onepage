@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 
 export const FooterContainer = styled.footer`
-  margin-top: 100px;
   background-color: #1A0289;
   font-family: 'Nunito', sans-serif;
   display: flex;

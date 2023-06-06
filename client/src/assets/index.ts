@@ -6,6 +6,7 @@ import LogoMeuApe2 from './logo-intro.svg';
 import Arrow from './arrow-intro.svg';
 import LinhaHome from './Line 11.svg'
 import BackgroundHome from './background.svg'
+import ImgConstructFirst from './imgConstructF.svg'
 
 export {
     LogoMeuApe,
@@ -15,5 +16,6 @@ export {
     LogoMeuApe2,
     Arrow,
     LinhaHome,
-    BackgroundHome
+    BackgroundHome,
+    ImgConstructFirst,
 };

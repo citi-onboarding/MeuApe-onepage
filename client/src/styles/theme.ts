@@ -1,4 +1,4 @@
-import { BackgroundHome } from '../assets'
+import { BackgroundHome, ImgConstructFirst } from '../assets'
 
 export const theme = {
   colors: {
@@ -8,5 +8,8 @@ export const theme = {
   },
   backgroundImage: {
     background: BackgroundHome,
+  },
+  backgroundLowFirst: {
+    background: ImgConstructFirst,
   },
 };
