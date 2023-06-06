@@ -55,3 +55,9 @@ export const Link = styled.a`
   }
 `;
 
+export const Ajuste = styled.div`
+    float: right;
+    margin-top: 7px;
+  }
+`;
+
