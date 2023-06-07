@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 
-export const CBContainer = styled.footer`
-  margin-top: 100px;
+export const CBContainer = styled.div`
+  margin-top: 250px;
   background-color: #FFF;
   font-family: 'Nunito', sans-serif;
   display: flex;
-
-  bottom: 0;
+  margin-bottom: 250px;
   border-radius: 10px 10px 0 0;
 `;
 
