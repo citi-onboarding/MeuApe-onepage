@@ -12,31 +12,43 @@ export const ContentContainer = styled.div`
     height: 700px;
 `;
 
+export const LeftSide = styled.div`
+    float: left;
+    width: 50%;
+    height: 474px;
+    margin-top: 90px;
+    margin-left: 4%;
+`;
+
 export const Content = styled.div`
     float: right;
-    width: 50%;
+    width: 46%;
     margin-top: 170px;
 `;
 
 export const TitleContent = styled.div`
-    width: 497px;
-    padding-left: 110px;
+    width: 450px;
+    padding-left: 50px;
     color: #A39AD0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 20px;
 `;
 
 export const SubTitleContent = styled.div`
-    width: 497px;
-    padding-left: 110px;
+    width: 450px;
+    padding-left: 50px;
     color: #000;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
 `;
 
 export const TextContent = styled.div`
-    width: 497px;
-    padding-left: 110px;
+    width: 470px;
+    padding-left: 50px;
     color: #000;
-    font-size: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
 `;
 
 export const Highlight = styled.span`
@@ -45,7 +57,7 @@ export const Highlight = styled.span`
 `;
 
 export const AdjustButton = styled.div`
-    padding-left: 110px;
+    padding-left: 50px;
 `;
 
 export const ImgLow = styled.div`
@@ -55,3 +67,5 @@ export const ImgLow = styled.div`
     width: 100%;
     height: 172px;
 `;
+
+
