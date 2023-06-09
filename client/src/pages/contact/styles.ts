@@ -10,6 +10,8 @@ export const ContactContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    bottom: -10px;
+    z-index: -1;
   }
 `;
 
