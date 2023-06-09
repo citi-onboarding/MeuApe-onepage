@@ -2,9 +2,8 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
+import { Footer, Intro, Home, Contact, CB } from "./pages";
 
-
-import { Footer, Intro, Home, Contact } from "./pages";
 
 function App() {
   return (
@@ -12,6 +11,7 @@ function App() {
       <GlobalStyle />
       <Home />
       <Intro />
+      <CB />
       <Contact />
       <Footer />
       <GlobalStyle />
