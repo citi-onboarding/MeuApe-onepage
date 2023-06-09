@@ -5,7 +5,10 @@ import Linkedin from './Linkedin.svg';
 import LogoMeuApe2 from './logo-intro.svg';
 import Arrow from './arrow-intro.svg';
 import LinhaHome from './Line 11.svg'
-import BackgroundHome from './background.svg'
+import BackgroundHome from './background.svg'-
+import ImgConstructFirst from './imgconstructFirst.svg'
+import ImgConstructRodape from './imgConstructRodape.svg'
+import ArrowConstruct from './arrowLow.svg'
 import ImgClientLow from './lowClient.svg'
 import BackgroundClient from './backgroundClient.svg'
 import Construct from './construct.png'
@@ -23,6 +26,9 @@ export {
     Arrow,
     LinhaHome,
     BackgroundHome,
+    ImgConstructFirst,
+    ImgConstructRodape,
+    ArrowConstruct,-
     ImgClientLow,
     BackgroundClient,
     Construct,

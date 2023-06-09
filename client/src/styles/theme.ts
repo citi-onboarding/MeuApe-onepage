@@ -1,4 +1,4 @@
-import { BackgroundHome, ImgClientLow, BackgroundClient } from '../assets'
+import { BackgroundHome, ImgClientLow, BackgroundClient, ImgConstructRodape } from '../assets'
 import { BackgroundContact } from '../assets'
 
 export const theme = {
@@ -10,11 +10,15 @@ export const theme = {
   backgroundImageHome: {
     background: BackgroundHome,
   },
+  backgroundLowFirst: {
+    background: ImgConstructRodape,
+  },
   backgroundLowClient: {
     background: ImgClientLow,
   },
   backgroundCarousel: {
     background: BackgroundClient,
+  },
   backgroundImageContact: {
     background: BackgroundContact,
   },
