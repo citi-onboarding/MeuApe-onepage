@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeContainer } from './styles';
+import { HomeContainer, HomeSection, Overlay, BlockContent, Content, BlueLine } from './styles';
 import { Button } from "../../components";
 import { Navbar } from "../navbar";
 
@@ -7,15 +7,15 @@ export const Home: React.FC = () => {
     return (
         <HomeContainer>
             <Navbar />
-            <section className="home-section">
-                <div className="overlay">
-                    <div className="content">
-                        <h2>Personalize sua <br /> casa nova sem dor <br />de cabeça</h2>
+            <HomeSection>
+                <Overlay>
+                    <BlockContent>
+                        <Content>Impulsione as vendas e <br /> satisfaça seus clientes com <br />uma solução inovadora de <br />personalização de <br />apartamentos</Content>
                         <Button />
-                    </div>
-                </div>
-            </section>
-            <span className="highlight-line" />
+                    </BlockContent>
+                </Overlay>
+            </HomeSection>
+            <BlueLine />
         </HomeContainer>
     );
 }
