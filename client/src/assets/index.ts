@@ -5,6 +5,9 @@ import Linkedin from './Linkedin.svg';
 import LogoMeuApe2 from './logo-intro.svg';
 import Arrow from './arrow-intro.svg';
 import LinhaHome from './Line 11.svg'
+import BackgroundHome from './background.svg'
+import ImgClientLow from './lowClient.svg'
+import BackgroundClient from './backgroundClient.svg'
 import Construct from './construct.png'
 import BackgroundHome from './bgHome.svg'
 import BackgroundContact from './bgContact.svg'
@@ -20,7 +23,9 @@ export {
     Arrow,
     LinhaHome,
     BackgroundHome,
+    ImgClientLow,
+    BackgroundClient,
     Construct,
     BackgroundContact,
-    LogoWpp
+    LogoWpp,
 };
