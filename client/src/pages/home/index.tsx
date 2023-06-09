@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
             <HomeSection>
                 <Overlay>
                     <BlockContent>
-                        <Content>Personalize sua <br /> casa nova sem dor <br />de cabeça</Content>
+                        <Content>Impulsione as vendas e <br /> satisfaça seus clientes com <br />uma solução inovadora de <br />personalização de <br />apartamentos</Content>
                         <Button />
                     </BlockContent>
                 </Overlay>

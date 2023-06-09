@@ -54,56 +54,61 @@ export const Overlay = styled.div`
 export const BlockContent = styled.section`
   text-align: left;
   color: #fff;
-  line-height: 85px;
   letter-spacing: 1.5px;
+  text-shadow: #000 2px 2px 4px;
+  margin-bottom: 120px;
 
   /* Responsividade Home */
   @media (min-width: 420px) and (max-width: 540px) {
     letter-spacing: 0px;
-    line-height: 69px;
   }
 `;
 
 export const Content = styled.h2`
-  font-size: 68px;  
+  font-size: 48px;  
 
   /* Responsividade Home */
   @media (min-width: 1140px) and (max-width: 1260px) {
-    font-size: 58px;
+    font-size: 38px;
   }
 
   @media (min-width: 1020px) and (max-width: 1140px) {
-    font-size: 52px;
+    font-size: 36px;
   }
 
   @media (min-width: 900px) and (max-width: 1020px) {
-    font-size: 50px;
+    font-size: 34px;
+    line-height: 45px;
   }
 
   @media (min-width: 780px) and (max-width: 900px) {
-    font-size: 48px;
+    font-size: 32px;
+    line-height: 45px;
   }
 
   @media (min-width: 660px) and (max-width: 780px) {
-    font-size: 46px;
+    font-size: 30px;
+    line-height: 45px;
   }
 
   @media (min-width: 540px) and (max-width: 660px) {
-    font-size: 44px;
+    font-size: 28px;
+    line-height: 45px;
   }
 
   @media (min-width: 420px) and (max-width: 540px) {
-    font-size: 38px;
+    font-size: 26px;
+    line-height: 45px;
   }
 `;
 
 export const BlueLine = styled.span`
   position: absolute;
   left: 0;
-  width: 37%;
+  width: 47%;
   height: 4px;
   background-color: #1A0289;
-  margin-top: -460px;
+  margin-top: -432px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 
   /* Responsividade Home */
