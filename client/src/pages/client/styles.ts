@@ -7,6 +7,7 @@ export const ClientContainer = styled.div`
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
+    margin-bottom: 100px;
 `;
 
 export const ContentContainer = styled.div`
@@ -16,6 +17,7 @@ export const ContentContainer = styled.div`
 
 export const Title = styled.div`
     width: 100%;
+    margin-bottom: -50px;
 `;
 
 export const Tag = styled.div`
@@ -32,7 +34,7 @@ export const Subtitle = styled.div`
     font-size: 32px;
 `;
 
-export const Carousel = styled.div`
+export const CarouselBackground = styled.div`
     background-image: url(${(props) => props.theme.backgroundCarousel.background});
     background-size: cover;
     float: right;
@@ -40,6 +42,11 @@ export const Carousel = styled.div`
     height: 474px;
     margin-top: 90px;
     margin-right: 4%;
+`;
+
+export const AdjustCarousel = styled.div`
+    margin-top: -28px;
+    margin-left: -40px;
 `;
 
 export const Content = styled.div`
@@ -85,11 +92,16 @@ export const AdjustButton = styled.div`
 `;
 
 export const ImgLow = styled.div`
-    display: flex;
     background-image: url(${(props) => props.theme.backgroundLowClient.background});
     background-size: cover;
     width: 100%;
     height: 172px;
 `;
 
-
+export const AdjustArrow = styled.a`
+    display: flex;
+    height: 63px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+`;

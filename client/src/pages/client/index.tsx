@@ -1,6 +1,13 @@
 import React from "react";
-import { ClientContainer, ImgLow, Content, TitleContent, SubTitleContent, TextContent, Highlight, AdjustButton, ContentContainer, Title, Tag, Subtitle, Carousel } from './styles';
-import { Button } from "../../components";
+import {
+    ClientContainer, ImgLow, Content,
+    TitleContent, SubTitleContent, TextContent,
+    Highlight, AdjustButton, ContentContainer, Title,
+    Tag, Subtitle, CarouselBackground, AdjustCarousel,
+    AdjustArrow
+} from './styles';
+import { Button, Carousel } from "../../components";
+import { ArrowConstruct } from '../../assets';
 
 
 export const Client: React.FC = () => {
@@ -11,7 +18,7 @@ export const Client: React.FC = () => {
                     <Tag><p>Benefícios</p></Tag>
                     <Subtitle><h2>Como podemos te ajudar</h2></Subtitle>
                 </Title>
-                <Carousel>Carousel</Carousel>
+                <CarouselBackground><AdjustCarousel><Carousel /></AdjustCarousel></CarouselBackground>
                 <Content>
                     <TitleContent><p>Para clientes</p></TitleContent>
                     <SubTitleContent><h2>Parcele os custos das reformas ao longo da obra</h2></SubTitleContent>
@@ -19,7 +26,7 @@ export const Client: React.FC = () => {
                     <AdjustButton><Button /></AdjustButton>
                 </Content>
             </ContentContainer>
-            <ImgLow></ImgLow>
+            <ImgLow><AdjustArrow href="#"><img src={ArrowConstruct} alt="" /></AdjustArrow></ImgLow>
         </ClientContainer>
     );
 }
