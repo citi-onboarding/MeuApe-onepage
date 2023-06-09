@@ -2,9 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
-
-
-import { Footer, Intro, Home, ConstructFirst } from "./pages";
+import { Footer, Intro, Home, Contact, CB, Client, ConstructFirst } from "./pages";
 
 function App() {
   return (
@@ -13,6 +11,9 @@ function App() {
       <Home />
       <Intro />
       <ConstructFirst />
+      <Client />
+      <CB />
+      <Contact />
       <Footer />
       <GlobalStyle />
     </ThemeProvider>
