@@ -1,4 +1,5 @@
 import { BackgroundHome } from '../assets'
+import { BackgroundContact } from '../assets'
 
 export const theme = {
   colors: {
@@ -8,5 +9,8 @@ export const theme = {
   },
   backgroundImageHome: {
     background: BackgroundHome,
+  },
+  backgroundImageContact: {
+    background: BackgroundContact,
   },
 };
