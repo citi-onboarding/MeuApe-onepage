@@ -10,8 +10,8 @@ function App() {
       <GlobalStyle />
       <Home />
       <Intro />
-      <ConstructFirst />
       <Client />
+      <ConstructFirst />
       <CB />
       <Contact />
       <Footer />
