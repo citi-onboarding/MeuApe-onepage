@@ -8,6 +8,11 @@ import LinhaHome from './Line 11.svg'
 import BackgroundHome from './background.svg'
 import ImgClientLow from './lowClient.svg'
 import BackgroundClient from './backgroundClient.svg'
+import Construct from './construct.png'
+import BackgroundHome from './bgHome.svg'
+import BackgroundContact from './bgContact.svg'
+import LogoWpp from './wppLogo.svg'
+
 
 export {
     LogoMeuApe,
@@ -20,4 +25,7 @@ export {
     BackgroundHome,
     ImgClientLow,
     BackgroundClient,
+    Construct,
+    BackgroundContact,
+    LogoWpp,
 };

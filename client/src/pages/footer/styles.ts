@@ -56,7 +56,7 @@ export const Footerp = styled.p`
   font-weight: 400; 
   color: white;
   margin-top: 0;
-  margin-bottom:60px;
+  margin-bottom:0;
   text-align: start;
 `;
 

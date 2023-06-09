@@ -1,4 +1,5 @@
 import { BackgroundHome, ImgClientLow, BackgroundClient } from '../assets'
+import { BackgroundContact } from '../assets'
 
 export const theme = {
   colors: {
@@ -6,7 +7,7 @@ export const theme = {
     primary: '#e1e1e6',
     text: '#e1e1e6',
   },
-  backgroundImage: {
+  backgroundImageHome: {
     background: BackgroundHome,
   },
   backgroundLowClient: {
@@ -14,5 +15,7 @@ export const theme = {
   },
   backgroundCarousel: {
     background: BackgroundClient,
+  backgroundImageContact: {
+    background: BackgroundContact,
   },
 };
