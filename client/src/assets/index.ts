@@ -8,6 +8,7 @@ import LinhaHome from './Line 11.svg'
 import BackgroundHome from './background.svg'
 import ImgConstructFirst from './imgconstructFirst.svg'
 import ImgConstructRodape from './imgConstructRodape.svg'
+import ArrowConstruct from './arrowLow.svg'
 
 export {
     LogoMeuApe,
@@ -20,4 +21,5 @@ export {
     BackgroundHome,
     ImgConstructFirst,
     ImgConstructRodape,
+    ArrowConstruct,
 };

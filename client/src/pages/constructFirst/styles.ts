@@ -61,11 +61,16 @@ export const AdjustButton = styled.div`
 `;
 
 export const ImgLow = styled.div`
-    display: flex;
     background-image: url(${(props) => props.theme.backgroundLowFirst.background});
     background-size: cover;
     width: 100%;
     height: 172px;
 `;
 
-
+export const AdjustArrow = styled.a`
+    display: flex;
+    height: 63px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+`;
