@@ -75,10 +75,10 @@ export const SubTitleContent = styled.div`
 `;
 
 export const TextContent = styled.div`
-    width: 470px;
+    width: 481px;
     padding-left: 50px;
     color: #000;
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 20px;
 `;
 
