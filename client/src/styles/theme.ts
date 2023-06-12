@@ -15,6 +15,7 @@ export const theme = {
   },
   backgroundCarousel: {
     background: BackgroundClient,
+  },
   backgroundImageContact: {
     background: BackgroundContact,
   },
