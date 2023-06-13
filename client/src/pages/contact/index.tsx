@@ -4,7 +4,7 @@ import { LogoWpp } from '../../assets';
 
 export const Contact: React.FC = () => {
     return (
-        <ContactContainer>
+        <ContactContainer id="contact">
             <Title>Contato</Title>
             <ContentContainer>
                 <Content>Se interessou? <br /> Vamos conversar!</Content>

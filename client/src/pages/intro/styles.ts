@@ -23,6 +23,7 @@ export const Introa = styled.a`
   width: 103.67px;
   height: 61.28px;
   margin-top: 10px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
 `;
@@ -62,7 +63,7 @@ font-size: 24px;
 font-weight: 600;
 color: #1A0289;
 opacity: 40%;
-margin-top: 230px;
+margin-top: 180px;
 line-height: 32px;
 text-align: center;
 `;

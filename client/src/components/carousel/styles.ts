@@ -9,7 +9,7 @@ export const CarouselContainer = styled.div`
 `;
 
 export const CarouselImage = styled.img`
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 600px;
+    max-height: 600px;
     cursor: pointer;
 `;

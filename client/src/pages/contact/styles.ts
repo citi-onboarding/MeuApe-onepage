@@ -46,7 +46,6 @@ export const ButtonContact = styled.button`
       width: 350px;
       border-radius: 10px;
       border: none;
-      text-shadow: #000 2px 2px 4px;
       align-items: center;
   }
 `;
@@ -59,7 +58,7 @@ export const Link = styled.a`
 
 export const Ajuste = styled.div`
     float: right;
-    margin-top: 7px;
+    margin-top: 9px;
   }
 `;
 

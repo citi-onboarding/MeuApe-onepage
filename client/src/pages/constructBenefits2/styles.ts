@@ -6,7 +6,7 @@ export const CBContainer = styled.div`
   background-color: #FFF;
   font-family: 'Nunito', sans-serif;
   display: flex;
-  margin-bottom: 250px;
+  margin-bottom: 300px;
   border-radius: 10px 10px 0 0;
 `;
 
@@ -23,12 +23,11 @@ export const CBDiv = styled.div`
 
 
 export const CBimg = styled.img`
-  width: 50%;
-  height: 50%;
-  margin-top: 20px; 
-  margin-right: auto; 
-  margin-left: auto;
-  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin-top: -10px; 
+  margin-right: 20px; 
+  margin-left: -150px;
 `;
 
 
@@ -53,6 +52,7 @@ export const CBp = styled.p`
 
 export const PurpleText = styled.span`
   color: #1A0289;
+  font-weight: bold;
 `;
 
 export const CBp2 = styled.p`

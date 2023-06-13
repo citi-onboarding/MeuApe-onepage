@@ -7,12 +7,12 @@ export const ClientContainer = styled.div`
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 `;
 
 export const ContentContainer = styled.div`
     height: 700px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 `;
 
 export const Title = styled.div`
@@ -29,6 +29,7 @@ export const Tag = styled.div`
 
 export const Subtitle = styled.div`
     display: flex;
+    margin-top: 10px;
     justify-content: center;
     color: #000;
     font-size: 32px;
@@ -45,7 +46,7 @@ export const CarouselBackground = styled.div`
 `;
 
 export const AdjustCarousel = styled.div`
-    margin-top: -28px;
+    margin-top: -60px;
     margin-left: -40px;
 `;
 
@@ -59,16 +60,15 @@ export const Content = styled.div`
 
 export const TitleContent = styled.div`
     width: 450px;
-    padding-left: 50px;
     color: #A39AD0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: -40px;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 600;
 `;
 
 export const SubTitleContent = styled.div`
     width: 481px;
-    padding-left: 50px;
     color: #000;
     margin-bottom: 20px;
     font-size: 20px;
@@ -76,19 +76,19 @@ export const SubTitleContent = styled.div`
 
 export const TextContent = styled.div`
     width: 481px;
-    padding-left: 50px;
     color: #000;
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 20px;
+    font-weight: 400;
 `;
 
 export const Highlight = styled.span`
     color: #1A0289;
-    font-weight: 600;
+    font-weight: bold;
 `;
 
 export const AdjustButton = styled.div`
-    padding-left: 50px;
+    padding-left: 0px;
 `;
 
 export const ImgLow = styled.div`

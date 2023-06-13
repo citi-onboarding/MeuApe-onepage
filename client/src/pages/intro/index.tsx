@@ -5,7 +5,7 @@ import { LogoMeuApe2,Arrow } from '../../assets';
 
 export const Intro: React.FC = () => {
     return (
-        <IntroContainer>
+        <IntroContainer id="intro">
             <Introimg1 src={LogoMeuApe2} alt="" />
             <Introp1>
             Feito para construtoras e clientes
@@ -19,7 +19,7 @@ export const Intro: React.FC = () => {
             <Introp2>
             Role para baixo
             </Introp2>
-            <Introa href="index">
+            <Introa href="#benefits">
             <img src={Arrow} alt="" />
             </Introa>
         </IntroContainer>
