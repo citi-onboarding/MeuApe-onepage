@@ -1,4 +1,4 @@
-import { BackgroundHome, ImgClientLow, BackgroundClient, ImgConstructRodape } from '../assets'
+import { BackgroundHome, ImgClientLow, BackgroundClient, ImgConstructRodape, BodyLine } from '../assets'
 import { BackgroundContact } from '../assets'
 
 export const theme = {
@@ -21,5 +21,8 @@ export const theme = {
   },
   backgroundImageContact: {
     background: BackgroundContact,
+  },
+  lineAll: {
+    background: BodyLine,
   },
 };

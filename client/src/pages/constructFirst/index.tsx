@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { ConstructContainer, ImgLow, Content, TitleContent, SubTitleContent, TextContent, Highlight, AdjustButton, ContentContainer, LeftSide, AdjustArrow } from './styles';
-import { Button } from "../../components";
+import {
+    ConstructContainer, ImgLow, Content,
+    TitleContent, SubTitleContent, TextContent,
+    Highlight, AdjustButton, ContentContainer,
+    LeftSide, AdjustArrow, AdjustImage
+} from './styles';
+import { Button, Line } from "../../components";
 import api from "../../services/api";
-import { ArrowConstruct } from '../../assets';
+import { ArrowConstruct, BodyLine } from '../../assets';
 
 type CBInfosF = {
     tag: string;
@@ -27,7 +32,7 @@ export const ConstructFirst = () => {
     return (
         <ConstructContainer>
             <ContentContainer>
-                <LeftSide><img src={infos && infos[0].image} alt="" /></LeftSide>
+                <LeftSide><Line /><AdjustImage src={infos && infos[0].image} alt="" /></LeftSide>
 
                 <Content>
                     <TitleContent><h3>{infos && infos[0].tag}</h3></TitleContent>

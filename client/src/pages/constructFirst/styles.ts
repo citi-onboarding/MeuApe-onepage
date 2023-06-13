@@ -74,3 +74,11 @@ export const AdjustArrow = styled.a`
     align-items: center;
     padding-top: 80px;
 `;
+
+
+
+export const AdjustImage = styled.img`
+    margin-left: 9px;
+`;
+
+
