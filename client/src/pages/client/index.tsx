@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { ClientContainer, ImgLow, Content, TitleContent, SubTitleContent, TextContent, Highlight, AdjustButton, ContentContainer, Title, Tag, Subtitle, Carousel } from './styles';
-import { Button } from "../../components";
+import {
+    ClientContainer, ImgLow, Content,
+    TitleContent, SubTitleContent, TextContent,
+    Highlight, AdjustButton, ContentContainer, Title,
+    Tag, Subtitle, CarouselBackground, AdjustCarousel,
+    AdjustArrow
+} from './styles';
+import { Button, Carousel } from "../../components";
 import api from "../../services/api";
+import { ArrowConstruct } from '../../assets';
 
 type ClientInfos = {
     tag: string;
@@ -27,7 +34,7 @@ export const Client = () => {
                     <Tag><p>Benefícios</p></Tag>
                     <Subtitle><h2>Como podemos te ajudar</h2></Subtitle>
                 </Title>
-                <Carousel>Carousel</Carousel>
+                <CarouselBackground><AdjustCarousel><Carousel /></AdjustCarousel></CarouselBackground>
                 <Content>
                     <TitleContent><p>{infos && infos[0].tag}</p></TitleContent>
                     <SubTitleContent><h2>{infos && infos[0].title}</h2></SubTitleContent>
@@ -43,7 +50,7 @@ export const Client = () => {
                     <AdjustButton><Button /></AdjustButton>
                 </Content>
             </ContentContainer>
-            <ImgLow></ImgLow>
+            <ImgLow><AdjustArrow href="#"><img src={ArrowConstruct} alt="" /></AdjustArrow></ImgLow>
         </ClientContainer >
     );
 }

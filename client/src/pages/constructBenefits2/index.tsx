@@ -34,7 +34,7 @@ export const CB = () => {
           {infos && (
             <React.Fragment>
               {infos[0].text.substring(0, infos[0].text.indexOf('são') + 3)} <br />
-              {infos[0].text.substring(infos[0].text.indexOf('são') + 3, infos[0].text.indexOf('Meu') + 0)}
+              {infos[0].text.substring(infos[0].text.indexOf('são') + 3, infos[0].text.indexOf('Meu') + 4)}
               <PurpleText>
                 {infos[0].text.substring(infos[0].text.indexOf('Meu'), infos[0].text.indexOf('Meu') + 3)} <br></br>
                 {infos[0].text.substring(infos[0].text.indexOf('Apê do Meu Jeito'), infos[0].text.indexOf('Jeito') + 5)}
