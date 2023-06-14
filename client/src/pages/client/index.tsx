@@ -6,9 +6,11 @@ import {
     Tag, Subtitle, CarouselBackground, AdjustCarousel,
     AdjustArrow
 } from './styles';
-import { Button, Carousel } from "../../components";
+import { Button, Carousel, Line } from "../../components";
 import api from "../../services/api";
 import { ArrowConstruct } from '../../assets';
+
+
 
 type ClientInfos = {
     tag: string;
@@ -34,7 +36,7 @@ export const Client = () => {
                     <Tag><p>Benefícios</p></Tag>
                     <Subtitle><h2>Como podemos te ajudar</h2></Subtitle>
                 </Title>
-                <CarouselBackground><AdjustCarousel><Carousel /></AdjustCarousel></CarouselBackground>
+                <CarouselBackground><Line /><AdjustCarousel><Carousel /></AdjustCarousel></CarouselBackground>
                 <Content>
                     <TitleContent><p>{infos && infos[0].tag}</p></TitleContent>
                     <SubTitleContent><h2>{infos && infos[0].title}</h2></SubTitleContent>

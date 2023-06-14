@@ -18,26 +18,28 @@ export const CBDiv = styled.div`
   flex-direction: column;
   margin-top: 20px; 
   margin-left: 100px;
-  margin-right: 100px;
 `;
 
 
 export const CBimg = styled.img`
-  width: 100%;
-  height: 100%;
-  margin-top: -10px; 
-  margin-right: 20px; 
-  margin-left: -150px;
 `;
 
+export const ImgDiv = styled.div`
+  width: 54%;
+  height: 50%;
+  margin-top: 20px; 
+  margin-right: 66px; 
+  margin-left: auto;
+  display: flex;
+`;
 
 export const CBh1 = styled.h1`
-width: 455px;
-height: 132px;
-font-weight: 600;
-font-size: 32px;
-color: #000000; 
-margin-bottom: 10px;
+  width: 455px;
+  height: 132px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #000000; 
+  margin-bottom: 10px;
 `;
 
 export const CBp = styled.p`
@@ -52,7 +54,7 @@ export const CBp = styled.p`
 
 export const PurpleText = styled.span`
   color: #1A0289;
-  font-weight: bold;
+  font-weight: 600;
 `;
 
 export const CBp2 = styled.p`

@@ -105,3 +105,6 @@ export const AdjustArrow = styled.a`
     align-items: center;
     padding-top: 80px;
 `;
+
+
+
