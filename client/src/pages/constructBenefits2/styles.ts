@@ -6,7 +6,7 @@ export const CBContainer = styled.div`
   background-color: #FFF;
   font-family: 'Nunito', sans-serif;
   display: flex;
-  margin-bottom: 250px;
+  margin-bottom: 300px;
   border-radius: 10px 10px 0 0;
 `;
 

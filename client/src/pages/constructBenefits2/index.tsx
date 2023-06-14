@@ -25,7 +25,7 @@ export const CB = () => {
   }, [])
 
   return (
-    <CBContainer>
+    <CBContainer id="c2">
       <CBDiv>
         <CBp> {infos && infos[0].tag} </CBp>
         <CBh1>{infos && infos[0].title}</CBh1>
@@ -48,7 +48,6 @@ export const CB = () => {
         <Button />
       </CBDiv>
       <ImgDiv><CBimg src={infos && infos[0].image} alt="" /></ImgDiv>
-
     </CBContainer>
   );
 };

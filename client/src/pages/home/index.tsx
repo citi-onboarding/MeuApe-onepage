@@ -5,7 +5,7 @@ import { Navbar } from "../navbar";
 
 export const Home: React.FC = () => {
     return (
-        <HomeContainer>
+        <HomeContainer id="home-section">
             <Navbar />
             <HomeSection>
                 <Overlay>

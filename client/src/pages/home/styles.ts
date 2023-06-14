@@ -55,7 +55,7 @@ export const BlockContent = styled.section`
   text-align: left;
   color: #fff;
   letter-spacing: 1.5px;
-  text-shadow: #000 2px 2px 4px;
+  text-shadow: rgba(0, 0, 0, 0.7) 2px 2px 4px;
   margin-bottom: 120px;
 
   /* Responsividade Home */
@@ -105,10 +105,10 @@ export const Content = styled.h2`
 export const BlueLine = styled.span`
   position: absolute;
   left: 0;
-  width: 47%;
+  width: 51%;
   height: 4px;
   background-color: #1A0289;
-  margin-top: -432px;
+  margin-top: -375px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 
   /* Responsividade Home */

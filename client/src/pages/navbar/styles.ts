@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const NavbarContainer = styled.div`
 
     width: 1360px;
-    margin: 0 auto;
+    margin-left: 40px;
     
     a {
         text-decoration: none;

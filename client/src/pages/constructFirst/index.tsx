@@ -30,10 +30,9 @@ export const ConstructFirst = () => {
 
 
     return (
-        <ConstructContainer>
+        <ConstructContainer id="c1">
             <ContentContainer>
                 <LeftSide><Line /><AdjustImage src={infos && infos[0].image} alt="" /></LeftSide>
-
                 <Content>
                     <TitleContent><h3>{infos && infos[0].tag}</h3></TitleContent>
                     <SubTitleContent><h2>{infos && infos[0].title}</h2></SubTitleContent>
@@ -49,7 +48,7 @@ export const ConstructFirst = () => {
                     <AdjustButton><Button /></AdjustButton>
                 </Content>
             </ContentContainer>
-            <ImgLow><AdjustArrow href="#"><img src={ArrowConstruct} alt="" /></AdjustArrow></ImgLow>
+            <ImgLow><AdjustArrow href="#c2"><img src={ArrowConstruct} alt="" /></AdjustArrow></ImgLow>
         </ConstructContainer>
     );
 }

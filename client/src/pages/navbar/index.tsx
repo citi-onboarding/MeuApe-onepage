@@ -17,10 +17,10 @@ export const Navbar: React.FC = () => {
                     </a>
                 </Logo>
                 <List>
-                    <ListItem><a href="#">Home</a></ListItem>
-                    <ListItem><a href="#">Quem somos</a></ListItem>
-                    <ListItem><a href="#">Benefícios</a></ListItem>
-                    <ListItem><a href="#">Contato</a></ListItem>
+                    <ListItem><a href="#home-section">Home</a></ListItem>
+                    <ListItem><a href="#intro">Quem somos</a></ListItem>
+                    <ListItem><a href="#benefits">Benefícios</a></ListItem>
+                    <ListItem><a href="#contact">Contato</a></ListItem>
                 </List>
             </SecondContainer>
         </NavbarContainer>

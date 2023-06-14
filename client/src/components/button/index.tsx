@@ -5,7 +5,7 @@ export const Button: React.FC = () => {
     return (
         <ButtonStyle>
             <div className="content">
-                <a href="#"><button>Entre em contato</button></a>
+                <a href="#contact"><button>Entre em contato</button></a>
             </div>
         </ButtonStyle>
     );
