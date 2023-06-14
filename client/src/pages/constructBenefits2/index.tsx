@@ -1,9 +1,8 @@
 import React from "react";
 import api from "../../services/api";
 import { useState, useEffect } from "react";
-import { CBContainer, CBh1, CBimg, CBp, CBp2, PurpleText, CBDiv } from "./styles";
+import { CBContainer, CBh1, CBimg, CBp, CBp2, PurpleText, CBDiv, ImgDiv } from "./styles";
 import { Button } from "../../components";
-import { Construct } from '../../assets';
 
 type CBInfos = {
   tag: string;
@@ -34,9 +33,9 @@ export const CB = () => {
           {infos && (
             <React.Fragment>
               {infos[0].text.substring(0, infos[0].text.indexOf('são') + 3)} <br />
-              {infos[0].text.substring(infos[0].text.indexOf('são') + 3, infos[0].text.indexOf('Meu') + 4)}
+              {infos[0].text.substring(infos[0].text.indexOf('são') + 3, infos[0].text.indexOf('Meu') + 0)}
               <PurpleText>
-                {infos[0].text.substring(infos[0].text.indexOf('Meu'), infos[0].text.indexOf('Meu') + 3)} <br></br>
+                {infos[0].text.substring(infos[0].text.indexOf('Meu'), infos[0].text.indexOf('Meu') + 3)} <br />
                 {infos[0].text.substring(infos[0].text.indexOf('Apê do Meu Jeito'), infos[0].text.indexOf('Jeito') + 5)}
               </PurpleText>
               {infos[0].text.substring(infos[0].text.indexOf('Jeito') + 5, infos[0].text.indexOf('mais') + 4)}<br />
@@ -48,7 +47,8 @@ export const CB = () => {
         </CBp2>
         <Button />
       </CBDiv>
-      <CBimg src={infos && infos[0].image} alt="" />
+      <ImgDiv><CBimg src={infos && infos[0].image} alt="" /></ImgDiv>
+
     </CBContainer>
   );
 };

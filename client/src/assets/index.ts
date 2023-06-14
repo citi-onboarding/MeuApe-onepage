@@ -14,6 +14,7 @@ import BackgroundClient from './teste1.svg'
 import Construct from './construct.png'
 import BackgroundContact from './bgContact.svg'
 import LogoWpp from './wppLogo.svg'
+import BodyLine from './lineDefault.svg'
 
 
 export {
@@ -33,4 +34,5 @@ export {
     Construct,
     BackgroundContact,
     LogoWpp,
+    BodyLine,
 };
