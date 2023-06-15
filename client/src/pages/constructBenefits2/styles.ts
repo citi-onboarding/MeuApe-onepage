@@ -7,7 +7,6 @@ export const CBContainer = styled.div`
   font-family: 'Nunito', sans-serif;
   display: flex;
   margin-bottom: 300px;
-  border-radius: 10px 10px 0 0;
 `;
 
 export const CBDiv = styled.div`
@@ -18,8 +17,8 @@ export const CBDiv = styled.div`
   flex-direction: column;
   margin-top: 20px; 
   margin-left: 100px;
-`;
 
+`;
 
 export const CBimg = styled.img`
 `;
@@ -31,6 +30,9 @@ export const ImgDiv = styled.div`
   margin-right: 66px; 
   margin-left: auto;
   display: flex;
+  @media (max-width: 1200px) {
+    font-size: 28px;
+  }
 `;
 
 export const CBh1 = styled.h1`

@@ -26,6 +26,8 @@ export const Introa = styled.a`
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  justify-content: center;
 `;
 
 export const Introh1 = styled.h1`
@@ -35,6 +37,7 @@ export const Introh1 = styled.h1`
   color: black;
   margin-top: 0px;
   text-align: center;
+  justify-content: center;
 `;
 
 export const Introp3 = styled.p`
@@ -45,6 +48,10 @@ export const Introp3 = styled.p`
   opacity: 60%;
   margin-top: 0;
   text-align: center;
+  justify-content: center;
+  @media (max-width: 1200px) {
+    font-size: 28px;
+  }
 `;
 
 export const Introp1 = styled.p`
@@ -55,6 +62,7 @@ color: #1A0289;
 margin-top: 0;
 line-height: 32px;
 text-align: center;
+justify-content: center;
 
 `;
 export const Introp2 = styled.p`
@@ -65,5 +73,9 @@ color: #1A0289;
 opacity: 40%;
 margin-top: 180px;
 line-height: 32px;
+justify-content: center;
 text-align: center;
+@media (max-width: 1200px) {
+  margin-top: 150px;
+}
 `;

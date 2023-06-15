@@ -12,4 +12,8 @@ export const CarouselImage = styled.img`
     max-width: 600px;
     max-height: 600px;
     cursor: pointer;
+    @media (max-width: 1000px) {
+        max-width: 500px;
+        max-height: 500px;
+      }
 `;
