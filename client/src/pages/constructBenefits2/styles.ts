@@ -7,6 +7,10 @@ export const CBContainer = styled.div`
   font-family: 'Nunito', sans-serif;
   display: flex;
   margin-bottom: 300px;
+
+  @media (max-width: 1280px) {
+    margin-top: 125px;
+    margin-bottom: 150px;}
 `;
 
 export const CBDiv = styled.div`
@@ -21,19 +25,25 @@ export const CBDiv = styled.div`
 `;
 
 export const CBimg = styled.img`
+    width: 109%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 1180px) {
+        height: 100%;
+        margin-top: 70px;
+    }
 `;
 
 export const ImgDiv = styled.div`
   width: 54%;
   height: 50%;
-  margin-top: 20px; 
   margin-right: 66px; 
   margin-left: auto;
   display: flex;
-  @media (max-width: 1200px) {
-    font-size: 28px;
-  }
+
 `;
+
 
 export const CBh1 = styled.h1`
   width: 455px;
@@ -42,6 +52,32 @@ export const CBh1 = styled.h1`
   font-size: 32px;
   color: #000000; 
   margin-bottom: 10px;
+  
+  @media (min-width: 1180px) and (max-width: 1280px) {
+      font-size: 27px;
+      width: 430px;
+      margin-bottom: -50px;
+    }
+
+  @media (min-width: 1080px) and (max-width: 1180px) {
+      width: 410px;
+      font-size: 25px;
+      margin-bottom: -50px;
+    }
+
+  @media (min-width: 980px) and (max-width: 1080px) {
+      width: 370px;
+      font-size: 20px;
+      padding-left: 10px;
+      margin-bottom: -70px;
+    }
+
+  @media (max-width: 980px) {
+      width: 340px;
+      font-size: 18px;
+      margin-bottom: -70px;
+      padding-left: 0;
+  }
 `;
 
 export const CBp = styled.p`
@@ -52,6 +88,26 @@ export const CBp = styled.p`
   opacity: 40%;
   line-height: 32px;
   text-align: center;
+
+  @media (min-width: 1180px) and (max-width: 1280px) {
+      font-size: 22px;
+      margin-bottom: 5px;
+  }
+
+  @media (min-width: 980px) and (max-width: 1180px) {
+      font-size: 20px;
+      margin-bottom: 4px;
+  }
+
+  @media (min-width: 980px) and (max-width: 1080px) {
+      padding-left: 10px;
+  }
+
+  @media (max-width: 980px) {
+      font-size: 18px;
+      margin-bottom: 4px;
+      padding-left: 0;
+  }
 `;
 
 export const PurpleText = styled.span`
@@ -64,5 +120,22 @@ export const CBp2 = styled.p`
   font-weight: normal;
   color: #000;
   line-height: 32px;
+  width: 455px;
   text-align: left;
+
+  @media (min-width: 1080px) and (max-width: 1280px) {
+      font-size: 17px;
+      width: 455px;
+  }
+  @media (min-width: 980px) and (max-width: 1080px) {
+      font-size: 16px;
+      width: 415px;
+      padding-left: 10px;
+  }
+  @media (max-width: 980px) {
+      font-size: 14.8px;
+      width: 376px;
+      padding-left: 0;
+  }
 `;
+
