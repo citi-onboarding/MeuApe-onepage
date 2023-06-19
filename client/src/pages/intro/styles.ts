@@ -7,15 +7,38 @@ export const IntroContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 export const Introimg1 = styled.img`
-  width: 1050px;
-  height: 1050px;
+  width: 72%;
+  height: 72%;
   margin-left: auto;
   margin-right: 0px;
   margin-bottom: 0px;
-  margin-top: -640px;
+  margin-top: -42.7%;
+  
+  @media (min-width: 1310px) and (max-width: 1340px) {
+    width: 70%;
+    margin-top: -41.5%;
+    margin-right: 0px;
+  }
+  @media (min-width: 1285px) and (max-width: 1310px) {
+    width: 68%;
+    margin-top: -40.2%;
+    margin-right: 0px;
+  }
+  @media (max-width: 1285px) {
+    width: 66%;
+    margin-top: -39.1%;
+    margin-right: 0px;
+  }
+  @media (max-width: 1250px) {
+    width: 70%;
+    margin-top: -41.5%;
+    margin-right: 0px;
+  }
 `;
 
 export const Introa = styled.a`
@@ -51,6 +74,7 @@ export const Introp3 = styled.p`
   justify-content: center;
   @media (max-width: 1200px) {
     font-size: 28px;
+    width: 90%;
   }
 `;
 

@@ -30,7 +30,8 @@ export const CBimg = styled.img`
     align-items: center;
     justify-content: center;
     @media (max-width: 1180px) {
-        height: 100%;
+        height: 120%;
+        width: 120%;
         margin-top: 70px;
     }
 `;
@@ -43,7 +44,6 @@ export const ImgDiv = styled.div`
   display: flex;
 
 `;
-
 
 export const CBh1 = styled.h1`
   width: 455px;
@@ -67,14 +67,14 @@ export const CBh1 = styled.h1`
 
   @media (min-width: 980px) and (max-width: 1080px) {
       width: 370px;
-      font-size: 20px;
+      font-size: 23px;
       padding-left: 10px;
       margin-bottom: -70px;
     }
 
   @media (max-width: 980px) {
       width: 340px;
-      font-size: 18px;
+      font-size: 20px;
       margin-bottom: -70px;
       padding-left: 0;
   }
@@ -133,7 +133,7 @@ export const CBp2 = styled.p`
       padding-left: 10px;
   }
   @media (max-width: 980px) {
-      font-size: 14.8px;
+      font-size: 15px;
       width: 376px;
       padding-left: 0;
   }
