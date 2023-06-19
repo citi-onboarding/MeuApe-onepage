@@ -173,12 +173,20 @@ export const ImgLow = styled.div`
     background-image: url(${(props) => props.theme.backgroundLowFirst.background});
     background-size: cover;
     width: 100%;
-    margin-top: 30px;
     height: 172px;
+    margin-top: 20px;
 
     /* Responsividade Construct first */
-    @media (max-width: 1280px) {
-        margin-top: -30px;
+    @media (min-width: 1680px) {
+        margin-top: 130px;
+    }
+
+    @media (min-width: 1080px) and (max-width: 1380px) {
+        margin-top: -50px;
+    }
+
+    @media (min-width: 880px) and (max-width: 1080px) {
+        margin-top: -70px;
     }
 `;
 

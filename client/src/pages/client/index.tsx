@@ -9,6 +9,7 @@ import {
 import { Button, Carousel, Line } from "../../components";
 import api from "../../services/api";
 import { ArrowConstruct } from '../../assets';
+import { handleClick } from '../../components/softScroll'
 
 
 
@@ -52,7 +53,7 @@ export const Client = () => {
                     <AdjustButton><Button /></AdjustButton>
                 </Content>
             </ContentContainer>
-            <ImgLow><AdjustArrow href="#c1"><img src={ArrowConstruct} alt="" /></AdjustArrow></ImgLow>
+            <ImgLow><AdjustArrow href="#c1" onClick={handleClick}><img src={ArrowConstruct} alt="" /></AdjustArrow></ImgLow>
         </ClientContainer >
     );
 }
