@@ -10,13 +10,6 @@ export const ContactContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 100px;
-
-
-    /* Responsividade Contact */
-    @media (min-width: 1500px) {
-      padding-bottom: 200px;
-    }
   }
 `;
 
@@ -99,3 +92,8 @@ export const AdjustButton = styled.div`
   }
 `;
 
+export const Teste = styled.div`
+    margin-top: 120px;
+    width: 100%;
+  }
+`;
