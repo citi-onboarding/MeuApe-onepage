@@ -14,7 +14,6 @@ function App() {
       <ConstructFirst />
       <CB />
       <Contact />
-      <Footer />
       <GlobalStyle />
     </ThemeProvider>
   );

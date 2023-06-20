@@ -1,6 +1,7 @@
 import React from "react";
 import { IntroContainer, Introh1, Introimg1, Introa, Introp1, Introp3, Introp2 } from './styles';
-import { LogoMeuApe2,Arrow } from '../../assets';
+import { LogoMeuApe2, Arrow } from '../../assets';
+import { handleClick } from '../../components/softScroll';
 
 
 export const Intro: React.FC = () => {
@@ -8,19 +9,19 @@ export const Intro: React.FC = () => {
         <IntroContainer id="intro">
             <Introimg1 src={LogoMeuApe2} alt="" />
             <Introp1>
-            Feito para construtoras e clientes
+                Feito para construtoras e clientes
             </Introp1>
             <Introh1>
-            Meu Apê do Meu Jeito
+                Meu Apê do Meu Jeito
             </Introh1>
-           <Introp3>
-            Possibilitamos uma ótima experiência na customização dos apartamentos de <br></br> forma unificada, simplificada e acessível
-            </Introp3> 
+            <Introp3>
+                Possibilitamos uma ótima experiência na customização dos apartamentos de <br></br> forma unificada, simplificada e acessível
+            </Introp3>
             <Introp2>
-            Role para baixo
+                Role para baixo
             </Introp2>
-            <Introa href="#benefits">
-            <img src={Arrow} alt="" />
+            <Introa href="#benefits" onClick={handleClick}>
+                <img src={Arrow} alt="" />
             </Introa>
         </IntroContainer>
     );

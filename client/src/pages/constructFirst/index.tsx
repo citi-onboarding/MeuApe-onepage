@@ -8,6 +8,7 @@ import {
 import { Button, Line } from "../../components";
 import api from "../../services/api";
 import { ArrowConstruct, BodyLine } from '../../assets';
+import { handleClick } from '../../components/softScroll'
 
 type CBInfosF = {
     tag: string;
@@ -48,7 +49,7 @@ export const ConstructFirst = () => {
                     <AdjustButton><Button /></AdjustButton>
                 </Content>
             </ContentContainer>
-            <ImgLow><AdjustArrow href="#c2"><img src={ArrowConstruct} alt="" /></AdjustArrow></ImgLow>
+            <ImgLow><AdjustArrow href="#c2" onClick={handleClick}><img src={ArrowConstruct} alt="" /></AdjustArrow></ImgLow>
         </ConstructContainer>
     );
 }

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
   background-color: #1A0289;
-  font-family: 'Nunito', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
