@@ -19,8 +19,7 @@ export const LineStyle = styled.img`
         height: 285%;
     }
 
-    @media (min-width: 880px) and (max-width: 1280px) {
-        height: 280%;
-    }
+    @media (min-width: 880px) and (max-width: 1080px){
+        height: 205%;
+      }
 `;
-

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const ContactContainer = styled.div`
     background-image: url(${(props) => props.theme.backgroundImageContact.background});
     background-size: cover;
-    height: 100%;
+    height: 900px;
     display: flex;
     position: relative;
     justify-content: center;
@@ -16,12 +16,16 @@ export const ContactContainer = styled.div`
 export const Title = styled.h2`
     color: #1A0289;
     font-weight: 400;
-    margin-bottom: 200px;
-    margin-top: 75px;
+    margin-top: 255px;
+    margin-bottom: 215px;
 
     /* Responsividade Contact */
     @media (min-width: 1500px) {
       margin-top: 95px;
+    }
+
+    @media (min-width: 880px) and (max-width: 1080px){
+      margin-top: 135px;
     }
   }
 `;
@@ -48,7 +52,6 @@ export const Content = styled.h1`
 
 export const ContentContainer = styled.div`
     margin-left: -630px;
-    margin-bottom: 150px;
 
     /* Responsividade Contact */
     @media (min-width: 1500px){
@@ -77,6 +80,21 @@ export const ButtonContact = styled.button`
       border-radius: 10px;
       border: none;
       align-items: center;
+
+      /* Responsividade Contact */
+      @media (min-width: 880px) and (max-width: 1080px){
+        width: 230px;
+        font-size: 18px;
+      }
+  }
+`;
+
+export const AdjustImage = styled.img`
+    /* Responsividade Contact */
+    @media (min-width: 880px) and (max-width: 1080px){
+      height: 31px;
+      margin-top: 3px;
+    }
   }
 `;
 
@@ -92,8 +110,13 @@ export const AdjustButton = styled.div`
   }
 `;
 
-export const Teste = styled.div`
-    margin-top: 120px;
+export const ContainerFooter = styled.div`
+    margin-top: 290px;
     width: 100%;
+
+    /* Responsividade Contact */
+    @media (min-width: 880px) and (max-width: 1080px){
+      margin-top: 200px;
+    }
   }
 `;

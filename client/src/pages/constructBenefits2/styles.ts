@@ -119,7 +119,6 @@ export const CBp2 = styled.p`
   font-size: 20px;
   font-weight: normal;
   color: #000;
-  line-height: 32px;
   width: 455px;
   text-align: left;
 
@@ -138,4 +137,3 @@ export const CBp2 = styled.p`
       padding-left: 0;
   }
 `;
-

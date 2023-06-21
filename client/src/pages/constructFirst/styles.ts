@@ -8,9 +8,13 @@ export const ConstructContainer = styled.div`
     flex-direction: column;
     margin-top: 135px;
 
-    /* Responsividade Construct first */
+    /* Responsividade Construct second */
     @media (max-width: 1280px) {
         margin-top: 80px;
+    }
+
+    @media (min-width: 880px) and (max-width: 1080px) {
+        margin-bottom: 80px;
     }
 `;
 
@@ -210,5 +214,3 @@ export const AdjustImage = styled.img`
         height: 74%;
     }
 `;
-
-
