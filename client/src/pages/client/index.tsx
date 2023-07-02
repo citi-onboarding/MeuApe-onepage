@@ -21,16 +21,7 @@ type ClientInfos = {
 }
 
 export const Client = () => {
-    const [infos, setInfos] = useState<ClientInfos[]>();
-
-    useEffect(() => {
-        (async () => {
-            const response = await api.get('/client')
-            setInfos(response.data);
-        })()
-    }, [])
-
-    return (
+return (
         <ClientContainer id="benefits">
             <ContentContainer>
                 <Title>
@@ -39,17 +30,13 @@ export const Client = () => {
                 </Title>
                 <CarouselBackground><Line /><AdjustCarousel><Carousel /></AdjustCarousel></CarouselBackground>
                 <Content>
-                    <TitleContent><p>{infos && infos[0].tag}</p></TitleContent>
-                    <SubTitleContent><h2>{infos && infos[0].title}</h2></SubTitleContent>
-                    <TextContent><p>{infos && (
+                    <TitleContent><p>Para clientes</p></TitleContent>
+                    <SubTitleContent><h2>Parcele os custos das reformas ao longo da obra</h2></SubTitleContent>
+                    <TextContent><p>
                         <React.Fragment>
-                            {infos[0].text.substring(0, infos[0].text.indexOf(' Meu Apê do Meu Jeito'))}
-                            <Highlight>
-                                {infos[0].text.substring(infos[0].text.indexOf(' Meu Apê do Meu Jeito'), infos[0].text.indexOf('Meu Jeito') + 9)}
-                            </Highlight>
-                            {infos[0].text.substring(infos[0].text.indexOf('Meu Jeito') + 9)}
-                        </React.Fragment>
-                    )}</p></TextContent>
+                            O <Highlight> Meu Apê do Meu Jeito </Highlight>
+                            se propõe a viabilizar as reformas de forma escalonada ao longo da obra para que o cliente receba seu imóvel da forma desejada e com o rateio dos custos durante a construção do edifício, minimizando o impacto financeiro do cliente e possibilitando habitar de imediato.
+                        </React.Fragment></p></TextContent>
                     <AdjustButton><Button /></AdjustButton>
                 </Content>
             </ContentContainer>

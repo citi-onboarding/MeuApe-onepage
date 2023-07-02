@@ -12,10 +12,11 @@ import ArrowConstruct from './arrowLow.svg'
 import ImgClientLow from './lowClient.svg'
 import BackgroundClient from './teste1.svg'
 import Construct from './construct.png'
-import BackgroundContact from './bgContact.svg'
+import BackgroundContact from './backgroundContact.png'
 import LogoWpp from './wppLogo.svg'
 import BodyLine from './lineDefault.svg'
-
+import ConstructBenefit2 from './constructBenefit2.png'
+import ConstructBenefit1 from './constructBenefit1.png'
 
 export {
     LogoMeuApe,
@@ -35,4 +36,6 @@ export {
     BackgroundContact,
     LogoWpp,
     BodyLine,
+    ConstructBenefit2,
+    ConstructBenefit1,
 };

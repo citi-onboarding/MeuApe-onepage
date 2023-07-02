@@ -15,17 +15,6 @@ type footerInfos = {
 }
 
 export const Footer = () => {
-  const [infos, setInfos] = useState<footerInfos[]>();
-
-  const getInfos = async () => {
-      const response = await api.get('/footer');
-      setInfos(response.data);
-  }
-
-  useEffect(() => {
-      getInfos();
-  }, [])
-
   return (
     <FooterContainer>
       <Footerimg src={LogoMeuApe} alt="" />
@@ -34,13 +23,11 @@ export const Footer = () => {
           Endereço 
         </Footerh1>
         <Footerp>
-          {infos && (
-            <React.Fragment>
-              {infos[0].adress.substring(0, infos[0].adress.indexOf('5') + 1)}<br />
-              {infos[0].adress.substring(infos[0].adress.indexOf('5') + 2, infos[0].adress.lastIndexOf('E ') + 1)}<br />
-              {infos[0].adress.substring(infos[0].adress.lastIndexOf('E ') + 2)}
-            </React.Fragment>
-          )}
+          <React.Fragment>
+            Rua Abelardo, 45 <br />
+            Graças - Recife PE <br />
+            CEP: 52050-310
+          </React.Fragment>
         </Footerp>
       </FooterDiv>
       <FooterDiv>
@@ -48,12 +35,12 @@ export const Footer = () => {
           Contato
         </Footerh1>
         <Footerp>
-          {infos&&infos[0].phone} <br></br> <br></br>
+          +55(81)99114-1599 <br></br> <br></br>
         </Footerp>
         <Footerp>
-          {infos&&infos[0].email}
+          contato@meuapedomeujeito.com.br
         </Footerp> <Footerp>
-          {infos&&infos[0].email2}
+          vendas@meuapedomeujeito.com.br
         </Footerp>
       </FooterDiv>
       <FooterDiv>
@@ -62,17 +49,17 @@ export const Footer = () => {
         </Footerh1>
         <Footerul>
           <Footerli>
-            <Footera href={infos&&infos[0].linkInstagram} target="_blank">
+            <Footera href="https://www.instagram.com/" target="_blank">
               <img src={Instagram} alt="" />
             </Footera>
           </Footerli>
           <Footerli>
-            <Footera href={infos&&infos[0].linkFacebook} target="_blank">
+            <Footera href="https://www.facebook.com/" target="_blank">
               <img src={Facebook} alt="" />
             </Footera>
           </Footerli>
           <Footerli>
-            <Footera href={infos&&infos[0].linkLinkedin} target="_blank">
+            <Footera href="https://www.linkedin.com/" target="_blank">
               <img src={Linkedin} alt="" />
             </Footera>
             </Footerli>

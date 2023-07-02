@@ -3,6 +3,7 @@ import api from "../../services/api";
 import { useState, useEffect } from "react";
 import { CBContainer, CBh1, CBimg, CBp, CBp2, PurpleText, CBDiv, ImgDiv } from "./styles";
 import { Button } from "../../components";
+import { ConstructBenefit2 } from "../../assets";
 
 type CBInfos = {
   tag: string;
@@ -27,27 +28,24 @@ export const CB = () => {
   return (
     <CBContainer id="c2">
       <CBDiv>
-        <CBp> {infos && infos[0].tag} </CBp>
-        <CBh1>{infos && infos[0].title}</CBh1>
+        <CBp> Para construtoras</CBp>
+        <CBh1>Melhore na experiência de compra, praticidade e confiança</CBh1>
         <CBp2>
-          {infos && (
             <React.Fragment>
-              {infos[0].text.substring(0, infos[0].text.indexOf('são') + 3)} <br />
-              {infos[0].text.substring(infos[0].text.indexOf('são') + 3, infos[0].text.indexOf('Meu') + 0)}
+              O processo de gestão e logística da obras são muito complexos e podem dificultar o processo de personalização de apartamentos, mas com O 
               <PurpleText>
-                {infos[0].text.substring(infos[0].text.indexOf('Meu'), infos[0].text.indexOf('Meu') + 3)} <br />
-                {infos[0].text.substring(infos[0].text.indexOf('Apê do Meu Jeito'), infos[0].text.indexOf('Jeito') + 5)}
+                Meu<br />
+                Apê do Meu Jeito
               </PurpleText>
-              {infos[0].text.substring(infos[0].text.indexOf('Jeito') + 5, infos[0].text.indexOf('mais') + 4)}<br />
-              {infos[0].text.substring(infos[0].text.indexOf('mais') + 4, infos[0].text.indexOf('experiência, ') + 13)}<br />
-              {infos[0].text.substring(infos[0].text.indexOf('experiência, ') + 13, infos[0].text.indexOf('clientes') + 8)}
-              {infos[0].text.substring(infos[0].text.indexOf('clientes') + 8)}
+              , este processo pode ser mais <br />
+              ágil, fácil e ainda contribuir na melhor experiência, <br />
+              relacionamento e engajamento com seus clientes.
+              
             </React.Fragment>
-          )}
         </CBp2>
         <Button />
       </CBDiv>
-      <ImgDiv><CBimg src={infos && infos[0].image} alt="" /></ImgDiv>
+      <ImgDiv><CBimg src={ConstructBenefit2} alt="Tela do aplicativo, versão desktop" /></ImgDiv>
     </CBContainer>
   );
 };
